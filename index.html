@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title>Crud Project</title>
+    <link type="text/css" rel="stylesheet" href="style.css"
+</head>
+
+<body>
+    <tcaption>4조 : 20191437 김경민, </tcaption>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="productCode">텍스트를 입력하세요</label>
+                        <input type="text" name="productCode" id="productCode">
+                    </div>
+                    <div class="form_action--button">
+                        <input type="submit" value="생성(Create)">
+                        <input type="reset" value="초기화(Reset)">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>메모한 내용(Retrieve)</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
